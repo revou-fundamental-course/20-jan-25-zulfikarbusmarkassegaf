@@ -9,6 +9,7 @@ main {
 p {
     font-family: segoe UI;
     font-size: 16px;
+    color: #0b0f14;
     text-align: justify;
 }
 
@@ -36,7 +37,7 @@ input[type=number] {
 }
 
 form {
-    background-color: antiquewhite;
+    background-color: transparent;
     padding: 32px;
     border-radius: 10px;
 }
@@ -65,10 +66,15 @@ button {
 .result-section {
     padding: 16px;
     text-align: center;
-    background-color: antiquewhite;
+    background-color: blue;
+    border-radius: 10px;
+    font-family: segoe UI;
+    font-size: larger;
+    color: whitesmoke;
 }
 
 #result-bmi {
     font-size: xxx-large;
-    font-family: math;
+    font-family: segoe UI;
+    font-size: 50px;
 }
