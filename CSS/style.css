@@ -6,14 +6,24 @@ main {
     padding: 32px;
 }
 
+p {
+    font-family: segoe UI;
+    font-size: 16px;
+    text-align: justify;
+}
+
 footer {
     text-align: center;
+    font-family: segoe UI;
+    font-size: 10px;
 }
 
 .main-header {
     text-align: left;
-    width: 20%;
-    padding-left: inherit;
+    padding-left: 25px;
+    font-family: Segoe UI;
+    font-size: larger;
+
 }
 
 input[type=number] {
@@ -21,11 +31,14 @@ input[type=number] {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
+    border-radius: 10px;
+    font-family: segoe UI,segoe UI;
 }
 
 form {
     background-color: antiquewhite;
     padding: 32px;
+    border-radius: 10px;
 }
 
 .form-group {
@@ -38,6 +51,7 @@ button {
     border: none;
     padding: 8px;
     color: antiquewhite;
+    font-family: segoe UI;
 }
 
 .bg-black {
